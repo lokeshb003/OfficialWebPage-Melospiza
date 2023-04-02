@@ -1,0 +1,32 @@
+:root {
+  --contentTitle: #042d51;
+}
+
+.container__projects {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.Projects {
+  color: var(--contentTitle);
+  font-weight: 600;
+  padding-top: 70px;
+}
+
+.anishcashews {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.prebooks {
+  width: 200px;
+}
+
+@media screen and (min-width: 900px) {
+  .prebooks {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+}
+
