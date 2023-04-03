@@ -2,7 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MelospizaStartUp.github.io/Portfolio",
+  "homepage": "https://MelospizaStartUp.github.io/LandingPage",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@formspree/react": "^2.4.1",
