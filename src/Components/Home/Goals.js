@@ -33,10 +33,12 @@ const AboutUs = () => {
         >
           <h1 className="content1__heading">Achieve Your Goals With Us</h1>
           <p className="content">
-            At Melospiza, we understand your business goals and works towards
-            achieving them. We strive to provide you with the best services and
-            support. With our team of experts, you can be sure that your
-            business will be successful in digital world.
+            Let Melospiza assist you in realising your vision. With the support
+            of our top-notch web, app, and UI/UX services, we'll assist you in
+            growing your company. To develop a solution that is specifically
+            tailored to your demands and aids in the accomplishment of your
+            objectives, our team of professionals will collaborate directly with
+            you. Start now and see what we can offer you.
           </p>
         </Col>
         <Col

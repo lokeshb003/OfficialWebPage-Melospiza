@@ -1,0 +1,86 @@
+form input {
+    min-width: 300px;
+    display: block;
+    /* margin: 10px 0px 20px 40px; */
+    margin: 10px auto;
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(173deg, #0f1a2b, #122739,#2b4c66, transparent);
+    border: none;
+    transition: .3s;
+    border-radius: 10px;
+    color: #d3d8db;
+}
+
+@media screen and (max-width:800px){
+    form input{
+        margin: 10px auto 20px auto;
+    }
+    .text_field div{
+        margin: 10px 0px 20px 20px;
+    }
+}
+
+@media screen and (min-width:800px) and(max-width:1024px){
+    .text_field div{
+        margin: 10px 0px 20px 40px;
+    }
+}
+textarea{
+    min-width: 300px;
+    /* display: flex;
+    margin: auto; */
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(173deg, #0f1a2b, #122739,#2b4c66, transparent);
+    border: none;
+    transition: .3s;
+    border-radius: 10px;
+    color: #d3d8db;
+    transition: .3s;
+}
+
+textarea:hover{
+    border-bottom: 2px solid rgb(14, 186, 97);
+    background:transparent;
+}
+.text_field div{
+    margin: 10px 0px 20px ;
+}
+
+label{
+    margin: 10px 200px 0px 0px;
+    color: #d3d8db;
+}
+form input:hover{
+    border-bottom: 2px solid rgb(14, 186, 97);
+    background:transparent;
+}
+
+
+.submit{
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(14, 186, 97);
+    background:transparent;
+    color: #d3d8db;
+}
+
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.contactUs__title{
+    color: white;
+    font-weight: 200;
+    margin: 60px;
+}
+

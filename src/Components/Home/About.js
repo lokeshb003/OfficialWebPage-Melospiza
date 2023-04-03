@@ -24,7 +24,7 @@ useEffect(()=>{
   
   return (
     
-    <div>
+    <div id="about">
       <Row>
         <Col className="col-lg-3">
           <div>
@@ -37,7 +37,7 @@ useEffect(()=>{
         </Col>
 
         <Col>
-          {!display && <button onClick={revealText}>Reveal</button>}
+          {!display && <button onClick={revealText} className="reveal__button">Reveal</button>}
           {reveal && (
             <p className="aboutUs">
               {text}

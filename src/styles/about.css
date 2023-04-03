@@ -11,6 +11,7 @@
 .aboutUs{
     margin: 100px 50px 100px 60px;
     font-size: 1.2rem;
+    color: white;
 }
 
 @media screen and (max-width:880px){
@@ -21,4 +22,20 @@
 
 .aboutUs{
     transition-duration: 5s;
+}
+
+.reveal__button{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border:2px solid #b55795;
+    color: white;
+}
+
+@media screen and (min-width:900px){
+    .reveal__button{
+        margin: 80px;
+    }
 }

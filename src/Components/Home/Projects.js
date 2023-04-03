@@ -6,7 +6,7 @@ import PreBooks from "../../assests/probooks.png";
 
 const Projects = () => {
   return (
-    <div className="container__projects">
+    <div className="container__projects" id="projects">
       <h1 className="Projects">Our Projects</h1>
       <Row>
         <Col

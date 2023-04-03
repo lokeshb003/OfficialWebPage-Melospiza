@@ -8,6 +8,8 @@ import About from "./About";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Project from './Projects'
+import Form from "../Form/Form";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <section>
@@ -24,7 +26,7 @@ const Home = () => {
                   customers
                 </h4>
               </Col>
-              <Col>
+              {/* <Col>
                 <div>
                   <img
                     className="home-img"
@@ -32,17 +34,19 @@ const Home = () => {
                     alt='home'
                   />
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </section>
         </div>
       </div>
       <section>
         <Goals />
-        <About id="about"/>
-        <Services id="services"/>
-        <Testimonials id="testimonials"/>
-        <Project id="projects"/>
+        <About/>
+        <Services/>
+        <Testimonials/>
+        <Project/>
+        <Form />
+        <Footer />
       </section>
     </section>
   );

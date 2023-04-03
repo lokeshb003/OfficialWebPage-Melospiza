@@ -5,17 +5,17 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import 'swiper/css/autoplay';
+import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
-import '../../styles/testimonials.css'
+import "../../styles/testimonials.css";
 import ParticlesJS from "../Particles";
 
 const Testimonials = () => {
   return (
-    <div className="container">
-      <ParticlesJS/>
+    <div className="container" id="testimonials">
+      <ParticlesJS />
       <h1 className="Testimonials__title">Testimonials</h1>
-      
+
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -24,7 +24,7 @@ const Testimonials = () => {
         // autoplay={delay:4000,}
         slidesPerView={"auto"}
         autoplay={{
-          delay:3000,
+          delay: 3000,
           // waitForTransition:true,
           // stopOnLastSlide:false,
           // pauseOnMouseEnter:true,
@@ -44,10 +44,8 @@ const Testimonials = () => {
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="swiper_container"
       >
-        <SwiperSlide
-          className="swiperslide"
-        >
-          <div style={{ background: "blue" }} className='testimonials'>
+        <SwiperSlide className="swiperslide">
+          <div className="testimonials1">
             <p className="testimonials__content">
               "Melospiza exceeded my expectations with their web services. Their
               user experience is top-notch and the pricingis unbeatable. Highly
@@ -59,10 +57,8 @@ const Testimonials = () => {
             <p className="place">Panruti, Cuddalore</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide "
-        >
-          <div style={{ background: "brown" }} className='testimonials'>
+        <SwiperSlide className="swiperslide ">
+          <div className="testimonials2">
             <p className="testimonials__content">
               "I have been using Melospiza's services for all of my app
               development needs and have never been disappointed. Their team is
@@ -72,10 +68,8 @@ const Testimonials = () => {
             <p className="place">Chennai</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide"
-        >
-          <div style={{ background: "white" }} className='testimonials'>
+        <SwiperSlide className="swiperslide">
+          <div className="testimonials3">
             <p className="testimonials__content">
               "Melospiza's web and app services have helped my business grow
               exponentially. Their user experience is unmatched and the pricing
@@ -85,10 +79,34 @@ const Testimonials = () => {
             <p className="place">New Delhi</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide
+        <SwiperSlide className="swiperslide">
+          <div className="testimonials4">
+            <p className="testimonials__content">
+              "I was astounded by the superb site design and user experience
+              that Melospiza offered for my company. Their team,
+              who are true design gurus, were able to produce a website that
+              looked fantastic."
+            </p>
+            <p className="client__name">Saiprasad</p>
+            <p className="place">Chennai</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiperslide">
+          <div className="testimonials5">
+            <p className="testimonials__content">
+              "Melospiza is without a doubt the top web design firm. Since I've
+              been working with them for a few months, I can genuinely state
+              that their incredible UI/UX designs have revolutionised my
+              company."
+            </p>
+            <p className="client__name">Lokesh</p>
+            <p className="place">Coimbatore</p>
+          </div>
+        </SwiperSlide>
+        {/* <SwiperSlide
           className="swiperslide"
         >
-          <div style={{ background: "blue" }} className='testimonials'>
+          <div className='testimonials6'>
           <p className="testimonials__content">
               "Melospiza's web and app services have helped my business grow
               exponentially. Their user experience is unmatched and the pricing
@@ -97,37 +115,25 @@ const Testimonials = () => {
             <p className="client__name">Ajay Patel</p>
             <p className="place">New Delhi</p>
           </div>
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide"
-        >
-          <div style={{ background: "red" }} className='testimonials'>
-          <p className="testimonials__content">
-              "Melospiza's web and app services have helped my business grow
-              exponentially. Their user experience is unmatched and the pricing
-              is very aggressive. I highly recommend them."
-            </p>
-            <p className="client__name">Ajay Patel</p>
-            <p className="place">New Delhi</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide
-          className="swiperslide"
-        >
-          <div style={{ background: "yellow" }} className='testimonials'>
-          <p className="testimonials__content">
-              "Melospiza's web and app services have helped my business grow
-              exponentially. Their user experience is unmatched and the pricing
-              is very aggressive. I highly recommend them."
-            </p>
-            <p className="client__name">Ajay Patel</p>
-            <p className="place">New Delhi</p>
-          </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
-        <div className="slider-controller">
-          {/* <div className="swiper-button-prev slider-arrow"></div>
-          <div className="swiper-button-next slider-arrow"></div> */}
+        <div
+          className="slider-controller"
+          style={{
+            position: "relative",
+            width: "200px",
+            margin: "auto",
+            bottom: "40px",
+          }}
+        >
+          <div
+            className="swiper-button-prev slider-arrow"
+            style={{ color: "#fff" }}
+          ></div>
+          <div
+            className="swiper-button-next slider-arrow"
+            style={{ color: "#fff" }}
+          ></div>
           {/* <div className="swiper-pagination"></div> */}
         </div>
       </Swiper>

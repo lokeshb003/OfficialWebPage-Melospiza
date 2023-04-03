@@ -50,14 +50,14 @@ function ParticlesJS() {
                 },
                 particles: {
                     color: {
-                        value: ["#000", "#ce2f2f", "#157eda", "#6ada15"],
+                        value: ["#ce2f2f", "#157eda", "#6ada15","#11bcccea","#b0cc11ea"],
                     },
                     links: {
-                        color: "#ffffff",
+                        color: ["#ffffff","#cc1111ea","#b0cc11ea","#11bcccea"],
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
-                        width: 1.5,
+                        width: 1,
                     },
                     collisions: {
                         enable: true,
@@ -77,7 +77,7 @@ function ParticlesJS() {
                             enable: true,
                             area: 800,
                         },
-                        value: 100,
+                        value: 60,
                     },
                     opacity: {
                         value: 1,
@@ -87,7 +87,7 @@ function ParticlesJS() {
                     },
                     
                     size: {
-                        value: { min: 5, max: 10 },
+                        value: { min: 5, max: 8 },
                     },
                 },
                 detectRetina: true,

@@ -1,0 +1,33 @@
+:root{
+    --contentTitle: #042d51;
+}
+
+.Footer__title{
+    color: var(--contentTitle);
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    font-size: 2.5rem;
+}
+
+.Logo{
+    width: 100px;
+    padding: 40px 0px 0px 0px;
+}
+
+.icon__group{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    padding: 20px 20px 0px 20px;
+    font-size: 30px;
+    color: var(--contentTitle);
+    transition: 2s;
+}
+.icon:hover{
+    color: #ab5095;
+}
+.icon__group a:hover{
+    transform: translateY(2px);
+}
