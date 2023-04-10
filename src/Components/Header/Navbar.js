@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Logo from '../../assests/logo.png'
 import '../../styles/navbar.css'
 import 'react-icons'
 

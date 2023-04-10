@@ -5,7 +5,7 @@ const About = () => {
   const [display, setDisplay] = useState(false);
   const [reveal, setReveal] = useState(false);
   const [TextLine, setTextLine] = useState("");
-  const [complete, setcomplete] = useState("At Melospiza, we understand your business goals and works towards achieving them. We strive to provide you with the best services and support. With our team of experts, you can be sure that your business will be successful in digital world.")
+  const [complete] = useState("At Melospiza, we understand your business goals and works towards achieving them. We strive to provide you with the best services and support. With our team of experts, you can be sure that your business will be successful in digital world.")
   const [index, setIndex] = useState(0);
   const revealText = () => {
     setReveal(!reveal);
@@ -19,7 +19,7 @@ useEffect(()=>{
       setIndex(index + 1)
     }, 60)
   }
-}, [index])
+}, [TextLine,complete,index])
  
   
   return (
