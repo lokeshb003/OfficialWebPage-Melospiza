@@ -64,6 +64,10 @@ jobs:
       # https://github.com/docker/metadata-action
       - name: Extract Docker metadata
         id: meta
+<<<<<<< HEAD
+=======
+        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+>>>>>>> 7ea35ef (Create docker-publish.yml)
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
 
