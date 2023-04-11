@@ -6,6 +6,8 @@ const Footer = () => {
   return (
     <div style={{background:'#fff', width:'100%', height:'300px'}}>
         <img src={Logo} className='Logo' alt='Melospiza'/><h1 className='Footer__title'>Melospiza&#174;</h1>
+
+        <p className='footer__privacyPolicy'><a href='../Footer/Privacy Policy_Melospiza.pdf' downlad>Privacy Policy</a></p>
         <Col className='icon__group'>
         <a class='mail' href="mailto: official.melospiza@gmail.com" style={{textDecoration:'none'}}><i className='ri-mail-send-line icon'></i></a>
             <a href="https://www.instagram.com/melospiza.team/" target="blank" style={{textDecoration:'none'}}><i className='ri-instagram-line icon'></i></a>

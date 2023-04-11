@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
+
 const AboutUs = () => {
   return (
     <div className="Goals">

@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Project from './Projects'
 import Form from "../Form/Form";
 import Footer from "../Footer/Footer";
+
 const Home = () => {
   return (
     <section>

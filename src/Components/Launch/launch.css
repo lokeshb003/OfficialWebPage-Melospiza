@@ -1,0 +1,21 @@
+.launch {
+  background: url("../Launch/android.png");
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 890px) {
+  .launch {
+    background: url("../Launch/webView.png");
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
