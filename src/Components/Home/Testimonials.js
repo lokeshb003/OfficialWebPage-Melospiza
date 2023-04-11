@@ -86,8 +86,8 @@ const Testimonials = () => {
               who are true design gurus, were able to produce a website that
               looked fantastic."
             </p>
-            <p className="client__name">Saiprasad</p>
-            <p className="place">Chennai</p>
+            <p className="client__name">Arun</p>
+            <p className="place">Vellore</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiperslide">
@@ -102,20 +102,7 @@ const Testimonials = () => {
             <p className="place">Coimbatore</p>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide
-          className="swiperslide"
-        >
-          <div className='testimonials6'>
-          <p className="testimonials__content">
-              "Melospiza's web and app services have helped my business grow
-              exponentially. Their user experience is unmatched and the pricing
-              is very aggressive. I highly recommend them."
-            </p>
-            <p className="client__name">Ajay Patel</p>
-            <p className="place">New Delhi</p>
-          </div>
-        </SwiperSlide> */}
-
+      
         <div
           className="slider-controller"
           style={{

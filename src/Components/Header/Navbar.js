@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
         <ul className={`${Click ? 'navMenu active': 'navMenu'}`}>
             <li className='navTitle'>
-                <a href="#about">About US</a>
+                <a href="#about">About Us</a>
             </li>
             <li className='navTitle'>
                 <a href='#services'>Services</a>

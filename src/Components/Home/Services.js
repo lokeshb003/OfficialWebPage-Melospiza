@@ -16,9 +16,10 @@ const Services = () => {
         <Col className="col-lg-7 services_content">
           <h1>App Development</h1>
           <p>
-            Melospiza can also develop cross-platform mobile apps that can run
-            on multiple platforms, such as iOS, Android, and web. This can save
-            you development time and costs and help you reach a wider audience.
+            Our app development services are made to make it simple for you to
+            reach your mobile audience. In order to provide seamless user
+            experiences, we develop native and hybrid mobile apps for iOS and
+            Android devices.
           </p>
         </Col>
       </Row>
@@ -30,10 +31,10 @@ const Services = () => {
         >
           <h1>Web Development</h1>
           <p>
-            Melospiza's team of experienced developers can create custom
-            websites tailored to the specific needs and goals of their clients.
-            They offer both front-end and back-end development services, and can
-            work with variety of technologies and platforms.
+            We provide professional web development services that are customised
+            to your specific requirements. Our team of skilled developers builds
+            responsive, effective websites with the help of the newest
+            technology.
           </p>
         </Col>
         <Col
@@ -70,10 +71,10 @@ const Services = () => {
         >
           <h1>UI Development</h1>
           <p>
-            Melospiza's designers create visually appealing and user-friendly
-            interfaces that meet the needs of your target audience. They use
-            industry best practices and standards to ensure that the design is
-            consistent, accessible, and easy to navigate.
+            Our UI/UX services are concentrated on giving your users the
+            greatest experience possible. Our team makes sure that every element
+            of your website or app is developed with the user in mind, from
+            wireframing and prototyping through design and production.
           </p>
         </Col>
       </Row>
