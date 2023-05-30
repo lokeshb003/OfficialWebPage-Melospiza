@@ -1,13 +1,7 @@
-FROM ubuntu:latest
-
+FROM alpine:latest
 WORKDIR .
-
-RUN apt update && apt install nodejs npm -y
-
+RUN apk update && apk add nodejs npm
 COPY . .
-
 RUN npm install
-
 EXPOSE 3000
-
 CMD ["npm","start"]
