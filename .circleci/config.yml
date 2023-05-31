@@ -7,8 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: 'install node modules'
-          command: 'npm install --save'
+          name: install node modules
+          command: npm install --save
   build_docker:
     docker:
       - image: circleci/node:12
@@ -17,8 +17,8 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching = false
       - run:
-          name: 'Build Docker Image'
-          command: 'docker build -t lokeshb003/circleci-nodejs-app:latest . && docker push lokeshb003/circleci-nodejs-app:latest'
+          name: Build Docker Image
+          command: docker build -t lokeshb003/circleci-nodejs-app:latest . && docker push lokeshb003/circleci-nodejs-app:latest
 
 workflows:
   build_test:
