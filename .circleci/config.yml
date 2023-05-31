@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker:
-          docker_layer_caching = false
+          docker_layer_caching: false
       - run:
           name: Build Docker Image
           command: docker build -t lokeshb003/circleci-nodejs-app:latest . && docker push lokeshb003/circleci-nodejs-app:latest
